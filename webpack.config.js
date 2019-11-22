@@ -2,7 +2,7 @@
  * @Author: Caven
  * @Date: 2019-03-28 12:44:36
  * @Last Modified by: Caven
- * @Last Modified time: 2019-06-22 00:14:01
+ * @Last Modified time: 2019-11-22 16:02:47
  */
 const path = require('path')
 const webpack = require('webpack')
@@ -14,7 +14,7 @@ module.exports = env => {
   }
   return {
     entry: {
-      'cesium-map': ['entry']
+      'cesium-layer': ['entry']
     },
     devtool: IS_PROD ? false : 'cheap-module-eval-source-map',
     output: {
